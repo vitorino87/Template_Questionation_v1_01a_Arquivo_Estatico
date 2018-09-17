@@ -1,0 +1,23 @@
+Classe Questao: Trabalha com os eventos da tela. Ligando cada objeto da tela a uma 
+variável da classe.
+
+Classe QuestaoAux: Possui funções que lidam com a lógica do app. Há funções para verificar
+se a resposta está certa, outra para retornar um array randomizado, entre outros.
+
+Classe QuestaoConector: Serve para atribuir as questões do arquivo strings.xml às 
+variáveis do app.
+
+Instruções de uso/reaproveitamento
+
+1º Copie e cole o projeto com um nome diferente;
+2º Refatore e renomeie o pacote da classe src;
+3º Abra o arquivo AndroidManifest.xml na aba Manifest altere o campo Package para o pacote que você acabou de alterar, se o pacote não estiver aparecendo, escreva-o no campo.
+4º Salve o arquivo AndroidManifest.xml, aparecerá uma mensagem avisando que as classes automaticas serão geradas novamente, clique em yes.
+5º Altere no código os pacotes das classes Questao.java, QuestaoConector.java;
+6º Após criar as questões no padrão do projeto, utilize o programa Editor_de_variaveis_para_questionation esse programa está no github para gerar as variáveis para a classe QuestaoConector e as strings para o arquivo strings.xml;
+7º Abra o arquivo strings.xml com o Android Common XML Editor apague as strings que não interessam mais, e copie as strings do arquivo questao.xml 
+8º Na classe QuestaoConector, após copiar as variáveis, altere a linha 13, nela você deve adicionar a quantidade de questões que o programa possui.
+
+ ESSA É A MELHOR VERSÃO ATÉ AGORA
+
+ ESSA VERS�O POSSUI UM ARQUIVO EST�TICO PARA CARREGAR AS QUEST�ES
